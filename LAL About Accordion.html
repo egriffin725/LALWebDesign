@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="LALGraphics.css">
+</head>
+<body>
+<div class=Navigation>
+  <div class="container-fluid" align="right">
+    <div class="buttons">
+    <row><title>Navigation</title>
+      <button type="button"> <a href="LALHome.html">Home</a></button>
+      <button type="button"><a href="LAL About Accordion.html">About</a></button>
+      <button type="button" onclick="Construction()">Gallery</button>
+      <script>
+      	function Construction(){
+ window.alert("This page is still under construction.")
+}
+
+function FormSubmit(){
+	window.alert("Your message has been recorded")
+}
+</script>
+    </row>
+  </div>
+      <img src="LAL WEB.png" align="left" size="xs">
+  </div>
+ </div>
+
+<div class="TimelineHeader">
+<h1>About the Surrealism Timeline Project</h1>
+</div>
+
+<div class="AccordionBox">
+
+<button class="accordion">Aboout the Timeline</button>
+<div class="panel">
+  <p>This is where I will write a description of the timeline project, our scope, and the objectives of assembling this timeline.</p>
+</div>
+
+<button class="accordion">About the LAL Team</button>
+<div class="panel">
+  <p>This is where I will talk about our team members and our roles in this project</p>
+</div>
+
+<button class="accordion">Contact Us</button>
+<div class="panel">
+  <p class="contact">Contact the LAL Team with questions & requests by messaging us using the form below!</p>
+  <form>
+  	<label for="Name">Name:</label><br>
+  	<input type="text" id="Name" name="Name"><br><br>
+  	<label for="Email">Email:</label><br>
+  	<input type="email" id="Email" name="Email"><br><br>
+  	<label for="EmailContent">Message:</label><br>
+  	<textarea cols="40" rows="10 id="EmailContent></textarea><br><br>
+  	<input type="submit" value="Submit" onsubmit="clicked()">
+  </form>
+</div>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+function clicked() {
+    alert('clicked');
+}
+
+</script>
+<footer>
+  <i>This page was created by LAL Web Design: Lindsey White, Alex Segur, & Liz Griffin</i>
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>

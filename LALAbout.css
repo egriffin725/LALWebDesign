@@ -1,0 +1,159 @@
+body {
+	background-color:#fcf7f8;
+	font-family: Roboto Slab;
+	font:Roboto Slab;
+	margin:0;
+}
+h1{
+	color:#333333;
+	font-family: Roboto Slab;
+	font:Roboto Slab;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 40%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-color: #E7E9EF;
+	width: 80%;
+}
+h2{
+	color:#fcf7f8;
+	font-family: Roboto Slab;
+	font:Roboto Slab;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 40%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-color: #333333;
+	width: 60%;
+}
+a{
+	color:#333333;
+}
+img{
+	border-radius: 10px;
+	padding: 5px;
+	width: 75px;
+	float:left;
+	vertical-align: middle;
+}
+div.container-fluid{
+	position: right;
+div.Navigation{
+	background-color: #E3002B;
+	border-inline: 50px;
+	position: absolute;
+    width: 100%;
+}
+div.buttons{
+	position: relative;
+	top:25px;
+	bottom:25px;
+	margin-left: 90%;
+	float:right;
+	width:90%;
+	font-size:20px;
+}
+
+button{
+	background-color: #B60022;
+	border-radius:10px;
+	border-color:#B60022;
+	font-family: Roboto Slab;
+	font:Roboto Slab;
+	position: relative;
+}
+div.buttons{
+	position: relative;
+	top:25px;
+	bottom:25px;
+	margin-left: 90%;
+	float:right;
+	width:90%;
+	font-size:20px;
+}
+
+div.TimelineHeader{
+	float:center;
+	width:100%;
+	background-color: #E7E9EF;
+	position: relative;
+    transform: translateY(150px);
+}
+
+section.TextHeader{
+	position: relative;
+	margin-top:175px;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.timeline ul{
+	padding:50px 0;
+} 
+.timeline ul li{
+	list-style: none;
+	position: relative;
+	width: 10px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background-color:#E7E9EF;
+}
+.timeline time{
+	display: block;
+	font-size: 22px;
+	margin-bottom: 8px;
+	font-weight: 700;
+}
+.timeline ul li:after{
+	content:"";
+	position:absolute;
+	left:50%;
+	bottom:0;
+	transform: translateX(-50%);
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	transition: all 0.5s;
+	background-color: #B60022;
+	z-index:1;
+}
+
+.timeline ul li div{
+	position:relative;
+	bottom:0;
+	width: 400px;
+	padding:15px;
+	background-color:#E7E9EF;
+	transition: all 0.5s;
+}
+.timeline ul li.left div{
+	left:45px;
+}
+.timeline ul li.right div{
+	left:-439px;
+}
+
+.timeline ul li.in-view:after{
+	background-color:#E7E9EF;
+}
+.timeline ul li.in-view div{
+	transform:none !important;
+	opacity: 1;
+}
+
+.timeline ::after{
+	position: absolute;
+}
+.NavigationBar{
+	background-color: #E3002B;
+	border-inline: 50px;
+	position: absolute;
+    width: 100%;
+}
