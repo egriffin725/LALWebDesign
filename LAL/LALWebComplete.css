@@ -1,0 +1,238 @@
+*{
+    color:#333333;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  h1{background-color: #E7E9EF;
+    font-family:'Roboto Slab';
+      text-align: center;
+      font-size: 90px;
+      margin-top: 16px;
+  }
+  p{font-family:'Roboto Mono';text-align: center;}
+  h4{
+    text-align: justify;
+    font-family:'Roboto Mono';
+    font-size: x-large;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #E3002B;
+      padding:14px
+    }
+  
+  
+
+  
+    
+  
+    .button1 {    
+  
+      font-size: 30px;
+      min-height:50px; 
+      min-width: 140px;
+      font-family:'Roboto Slab';
+      border-radius:7px;  border: none; float: right;
+      shape-margin: Round;
+      background-color: E7E9EF
+      ;
+      
+     }
+  body{background-color: #FCF7F8;}
+  
+  
+  
+  
+     .button:hover {
+      background-color:grey;
+      transition: 0.7s;
+  }
+
+  
+  
+  
+  
+  
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+  
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 14px;
+      background-color:#333333;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+      border-radius:6px;
+    }
+    
+  
+    .container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    
+  
+    .container::after {
+      content: '';
+      position: absolute;
+      width: 38px;
+      height: 14px;
+      right: 2px;
+      background-color:#333333;
+      top: 60px;
+      z-index: 1;
+      font-size: x-large;
+    }
+    .right {
+      left: 50%;
+  
+    }
+  
+    .right::after {
+      left: 2px;
+    }
+  
+    .content {
+      padding: 20px 30px;
+      background-color: #E7E9EF;
+      position: relative;
+      border-radius: 20px;
+  
+    }
+  
+    .content1 {
+      padding: 20px 30px;
+      background-color: white;
+      position: relative;
+      border-radius: 20px;
+  
+    }
+  
+    h2{
+      font-family:'Roboto Slab';
+      text-align: center;
+      font-size: xx-large;
+    }
+    hr.new {
+      border: 54px solid #E3002B;
+     
+    }
+    .button3 { 
+      
+      font-size: xx-large;
+      min-height:160px; 
+      min-width: 400px;
+      font-family:'Roboto Slab';
+      border-radius:20px;  border: none; 
+      shape-margin: Round;
+      background-color: #E7E9EF;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 36%;
+    
+  
+     }
+  
+     .skip-to-content-link {
+      left: 50%;
+      position: absolute;
+      transform: translateY(-100%);
+    }
+  
+    .skip-to-content-link {
+      background: #e77e23;
+      height: 30px;
+      left: 50%;
+      padding: 8px;
+      position: absolute;
+      transform: translateY(-100%);
+      transition: transform 0.3s;
+    }
+    
+    .skip-to-content-link:focus {
+      transform: translateY(0%);
+    }
+/* new */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    background-color: #e3002b;
+  } 
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    justify-content: right;
+  }
+
+  .nav-list li {
+    margin: 0 10px;
+  }
+  
+  .nav-list a {
+    display: block;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #e3002b;
+    transition: background-color 0.3s ease;
+    font-family:'Roboto Slab', serif;
+  }
+  
+  .nav-list a:hover {
+    background-color: #b60022;
+    color: #FFFFFF;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    color: #333333;
+    display: none;
+    position: absolute;
+    background-color: #E7E9Ef;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 0;
+
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    padding: 10px 14px;
+    border-radius: 0;
+  }
+  
+  .nav-list li:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #b60022;
+  } 
+
+
+  

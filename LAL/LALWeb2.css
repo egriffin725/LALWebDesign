@@ -1,0 +1,107 @@
+*{background-color: #333333}
+
+      .show {display: block;
+      }
+
+
+      .responsive {
+        max-width: auto;
+        height: auto;
+        background-color: #333333;
+      }
+
+
+      .scroll-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        scroll-snap-align: center;
+        padding-left: 0px;
+        background-color: #333333;
+
+        
+      }
+      div.scroll-container img {
+       padding: 100px;
+        width: auto;
+        height: auto;
+        background-color: #333333;
+        margin:6px 0 10px 0;
+
+      }
+
+
+
+      .navbar {
+        font-family:'Roboto Slab', serif;
+        background-color: #e3002b;
+         overflow: hidden;
+        display: flex; 
+        justify-content: right; 
+        
+        
+      }
+      
+      .nav-list {
+        background-color: #e3002b;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;  
+      }
+      
+      .nav-list li {
+        margin: 0 10px;
+      }
+      
+      .nav-list a {
+        display: block;
+        color: #FFFFFF;
+        text-align: left;
+        padding: 10px 25px;
+        text-decoration: none;
+        background-color: #e3002b;
+        transition: background-color 0.3s ease;
+      }
+      
+      .nav-list a:hover {
+        background-color: #b60022;
+        color: #FFFFFF;
+      }
+      
+      .dropdown-menu {
+        list-style-type: none;
+        color: #333333;
+        display: none;
+        position: absolute;
+        background-color: #E7E9Ef;
+        z-index: 1;
+        border-radius: 5px;
+        padding: 0;
+      }
+      
+      .dropdown-menu li {
+        margin: 0;
+      }
+      
+      .dropdown-menu a {
+        padding: 10px 14px;
+        border-radius: 0;
+      }
+      
+      .nav-list li:hover .dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #b60022;
+      }
+
+      #nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: auto;
+        background-color: #b60022;
+    }
