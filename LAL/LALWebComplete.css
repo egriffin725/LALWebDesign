@@ -234,5 +234,19 @@
     background-color: #b60022;
   } 
 
-
+  /*Responsive*/
+@media (max-width: 800px) {
+    header, h1, h2 {
+      font-size: 10vw;
+    }
+    .wrapper {
+      grid-template-columns: 400px;
+      grid-template-rows: auto;
+      font-size: 10vw;
+    }
+    .paragraph, figure, blockquote {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
   
