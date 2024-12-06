@@ -7,3 +7,9 @@ buttons.forEach(button => {
     });
 });
 
+//all links will open in blank tab when clicked
+const link = document.querySelector('figcaption a');
+link.addEventListener('click', function(event) {
+    window.open(link.href, '_blank');
+    event.preventDefault();
+});
