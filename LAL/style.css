@@ -31,55 +31,16 @@ h2 {
   background-color: #E7E9Ef;
 }
 
-h3 {
-  color: #333333;
-  padding: 10px 14px;
-  background-color: #FFFFFF;
-}
-
-
 .footer {
   background-color: #e3002b;
-  font-family:'Roboto Slab';
-  color: white;
-  padding: 20px;
-  text-align: center;
 }
 
-.footer-content {
+.logo {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
-
-.logo img {
-  width: 50px;
-  height: auto;
-}
-
-.footer-links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.footer-links li {
-  margin: 0 15px;
-  border-radius: 5px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-  background-color: #b60022;
-}
-
 
 /*Elements for nav bar*/
 .navbar {
@@ -184,14 +145,14 @@ h3 {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(10, 1fr);
   grid-gap: 20px;
 }
 
 .paragraph {
   font-family: 'Roboto Mono', serif;
   color: #333333;
-  padding: 50px 20px;
+  padding: 50px;
 }
 
 figure {
@@ -199,7 +160,7 @@ figure {
   color: #333333;
   background-color: #ffffff;
   margin-top: 50px;
-  padding: 100px 20px;
+  padding: 20px;
 }
 
 figure img {
