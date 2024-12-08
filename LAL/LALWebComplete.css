@@ -291,4 +291,40 @@
       font-size: 14px;
     }
   }
+
+/* media query for most phones */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 12vw;
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .nav-list {
+       width: 100%;
+        text-align: center;
+    }
+    .nav-list a{
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .content{
+        padding: 15px;
+    }
+
+    .timeline{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer=content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    
+    
+        
   
