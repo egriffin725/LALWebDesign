@@ -336,7 +336,6 @@ er*{
     text-align: justify;
 }
 
-
 /* CSS for LAL Web section on About */
 
 .Team {
@@ -359,24 +358,13 @@ er*{
     width: 80%;
     padding: 20px;
     text-align: justify;
-    background-color: #FCF7F8;
 }
 
 .Info p {
     text-align: justify;
 }
 
-.Info a{
-background-color: #FCF7F8;
-font: Roboto Mono;
-}
-
-.Info ul{
-background-color: #FCF7F8;
-font: Roboto Mono;
-}
-
-.Info li{
-background-color: #FCF7F8;
-font: Roboto Mono;
-}
+    
+    
+        
+  
