@@ -324,7 +324,7 @@ er*{
         text-align: center;
     }
 }
-/* CSS for Overview pg */
+/* CSS for Overview section on About */
 .Overview {
     margin-left: auto;
     margin-right: auto;
@@ -335,6 +335,21 @@ er*{
 .Overview p {
     text-align: justify;
 }
+
+/* CSS for LAL Web section on About */
+
+.Team {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.Team p{
+    text-align: justify;
+}
+
     
     
         
