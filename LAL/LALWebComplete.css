@@ -359,7 +359,7 @@ er*{
     width: 80%;
     padding: 20px;
     text-align: justify;
-    background-color: #E7E9EF;
+    background-color: #FCF7F8;
 }
 
 .Info p {
@@ -367,16 +367,16 @@ er*{
 }
 
 .Info a{
-background-color: #E7E9EF;
+background-color: #FCF7F8;
 font: Roboto Mono;
 }
 
 .Info ul{
-background-color: #E7E9EF;
+background-color: #FCF7F8;
 font: Roboto Mono;
 }
 
 .Info li{
-background-color: #E7E9EF;
+background-color: #FCF7F8;
 font: Roboto Mono;
 }
