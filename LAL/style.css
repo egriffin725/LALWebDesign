@@ -193,3 +193,76 @@ blockquote img {
     font-size: 14px;
   }
 }
+
+/* media query for most phones */
+
+@media (max-width: 480px) {
+    header, h1, h2 {
+        font-size: 12vw;
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .nav-list {
+       width: 100%;
+        text-align: center;
+    }
+    .nav-list a{
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .content{
+        padding: 15px;
+    }
+
+    .timeline{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer=content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* CSS for Overview section on About */
+.Overview {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+.Overview p {
+    text-align: justify;
+}
+
+/* CSS for LAL Web section on About */
+
+.Team {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.Team p{
+    text-align: justify;
+}
+
+/* CSS for content on Further reading pg */
+
+.Info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.Info p {
+    text-align: justify;
+}
+
