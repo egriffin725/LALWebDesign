@@ -31,53 +31,15 @@ h2 {
   background-color: #E7E9Ef;
 }
 
-h3 {
-  color: #333333;
-  padding: 10px 14px;
-  background-color: #FFFFFF;
-}
-
-/*footer*/
 .footer {
   background-color: #e3002b;
-  font-family:'Roboto Slab', serif;
-  color: white;
-  padding: 20px;
-  text-align: center;
 }
 
-.footer-content {
+.logo {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.logo img {
-  width: 50px;
-  height: auto;
-}
-
-.footer-links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.footer-links li {
-  margin: 0 15px;
-  border-radius: 5px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-  background-color: #b60022;
 }
 
 /*Elements for nav bar*/
@@ -146,11 +108,11 @@ h3 {
 }
 
 /*Elements for index.html*/
-.index_p {
+/* .index_p {
   font-family: 'Roboto Mono', serif;
   color: #333333;
   margin: 0 50px;
-}
+} */
 
 .timeline {
   display: flex;
@@ -183,14 +145,14 @@ h3 {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(10, 1fr);
   grid-gap: 20px;
 }
 
 .paragraph {
   font-family: 'Roboto Mono', serif;
   color: #333333;
-  padding: 50px 20px;
+  padding: 50px;
 }
 
 figure {
@@ -198,7 +160,7 @@ figure {
   color: #333333;
   background-color: #ffffff;
   margin-top: 50px;
-  padding: 100px 20px;
+  padding: 20px;
 }
 
 figure img {
@@ -231,76 +193,33 @@ blockquote img {
     font-size: 14px;
   }
 }
-
-/* media query for most phones */
-
 @media (max-width: 480px) {
-    header, h1, h2 {
-        font-size: 12vw;
-    }
-    .navbar {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-    .nav-list {
-       width: 100%;
-        text-align: center;
-    }
-    .nav-list a{
-        padding: 10px;
-        font-size: 1.2em;
-    }
-    .content{
-        padding: 15px;
-    }
+  header, h1, h2 {
+      font-size: 12vw;
+  }
+  .navbar {
+      flex-direction: column;
+      padding: 10px 0;
+  }
+  .nav-list {
+     width: 100%;
+      text-align: center;
+  }
+  .nav-list a{
+      padding: 10px;
+      font-size: 1.2em;
+  }
+  .content{
+      padding: 15px;
+  }
 
-    .timeline{
-        width: 100%;
-        padding: 0;
-    }
+  .timeline{
+      width: 100%;
+      padding: 0;
+  }
 
-    .footer=content {
-        flex-direction: column;
-        text-align: center;
-    }
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
 }
-/* CSS for Overview section on About */
-.Overview {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding: 20px;
-    text-align: justify;
-}
-.Overview p {
-    text-align: justify;
-}
-
-/* CSS for LAL Web section on About */
-
-.Team {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding: 20px;
-    text-align: justify;
-}
-
-.Team p{
-    text-align: justify;
-}
-
-/* CSS for content on Further reading pg */
-
-.Info{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding: 20px;
-    text-align: justify;
-}
-
-.Info p {
-    text-align: justify;
-}
-
