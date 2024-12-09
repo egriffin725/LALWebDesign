@@ -1,63 +1,55 @@
-er*{
+er* {
     color:#333333;
     text-decoration: none;
     box-sizing: border-box;
   }
   
-  h1{background-color: #E7E9EF;
+h1 {background-color: #E7E9EF;
     font-family:'Roboto Slab';
       text-align: center;
       font-size: 90px;
       margin-top: 16px;
   }
-  p{font-family:'Roboto Mono';text-align: center;}
-  h4{
+
+p {
+    font-family:'Roboto Mono';text-align: center;
+}
+  
+h4 {
     text-align: justify;
     font-family:'Roboto Mono';
     font-size: x-large;
     margin-right: 200px;
     margin-left: 200px;
   }
-  ul {
+
+ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #E3002B;
       padding:14px
-    }
-  
-  
+}
 
-  
-    
-  
-    .button1 {    
-  
-      font-size: 30px;
-      min-height:50px; 
-      min-width: 140px;
-      font-family:'Roboto Slab';
-      border-radius:7px;  border: none; float: right;
-      shape-margin: Round;
-      background-color: E7E9EF
-      ;
-      
-     }
-  body{background-color: #FCF7F8;}
-  
-  
-  
-  
-     .button:hover {
-      background-color:grey;
-      transition: 0.7s;
+.button1 {    
+    font-size: 30px;
+    min-height:50px; 
+    min-width: 140px;
+    font-family:'Roboto Slab';
+    border-radius:7px;  border: none; float: right;
+    shape-margin: Round;
+    background-color: E7E9EF;
+}
+
+body {
+      background-color: #FCF7F8;
+}
+ 
+.button:hover {
+    background-color:grey;
+    transition: 0.7s;
   }
-
-  
-  
-  
-  
   
     .timeline {
       position: relative;
@@ -98,14 +90,15 @@ er*{
       z-index: 1;
       font-size: x-large;
     }
-    .right {
-      left: 50%;
+   
+.right {
+    left: 50%;
   
-    }
+}
   
-    .right::after {
-      left: 2px;
-    }
+.right::after {
+    left: 2px;
+}
   
     .content {
       padding: 20px 30px;
@@ -120,7 +113,6 @@ er*{
       background-color: white;
       position: relative;
       border-radius: 20px;
-  
     }
   
     h2{
@@ -128,12 +120,12 @@ er*{
       text-align: center;
       font-size: xx-large;
     }
+
     hr.new {
       border: 54px solid #E3002B;
-     
     }
-    .button3 { 
-      
+
+    .button3 {     
       font-size: xx-large;
       min-height:160px; 
       min-width: 400px;
@@ -145,8 +137,6 @@ er*{
       margin-left: auto;
       margin-right: auto;
       width: 36%;
-    
-  
      }
   
      .skip-to-content-link {
@@ -168,6 +158,7 @@ er*{
     .skip-to-content-link:focus {
       transform: translateY(0%);
     }
+
 /* new */
 .navbar {
     overflow: hidden;
@@ -214,7 +205,6 @@ er*{
     z-index: 1;
     border-radius: 5px;
     padding: 0;
-
   }
   
   .dropdown-menu li {
